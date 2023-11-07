@@ -19,14 +19,19 @@
 .container {
   width: 1000px;
   margin: 0 auto;
-  background-color: #f1f0ee;
   padding: 30px;
+}
+
+.form-class {
+  background-color: #f1f0ee;
+  padding: 28px;
 }
 
 .header {
   font-size: 25px;
   font-weight: bold;
   background-color: #ffffff;
+
 }
 
 .form-style {
