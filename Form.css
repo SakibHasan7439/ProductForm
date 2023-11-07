@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float-left {
+  float: left;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #f1f0ee;
+  padding: 30px;
+}
+
+.header {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+.form-style {
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.inp-form {
+  width: 90%;
+  padding: 10px;
+}
+
+.select {
+  margin-left: 40px;
+}
+
+.space-class {
+  padding-bottom: 100px;
+}
+
+.submit-btn {
+  background-color: rgba(7, 122, 16, 0.74);
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: rgba(5, 128, 177, 0.74);
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 2px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.form-border {
+  border: 2px solid rgb(0, 0, 0);
+  position: relative;
+  padding: 50px 100px 20px 20px;
+  margin-bottom: 40px;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.btn-style {
+  position: absolute;
+  top: 10px;
+  background-color: darkred;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.all-inputs {
+  width: 100%;
+  padding: 14px;
+}

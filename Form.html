@@ -1,0 +1,63 @@
+<DOCKTYPE!>
+    <html>
+
+    <head>
+        <title>Products Description Form</title>
+        <link rel="stylesheet" href="Form.css">
+        <script src="Form.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">Contact Form</div>
+
+            <div class="space-class">
+                <form class="form-style empty-form">
+                    <label>Buyer's Name</label>
+                    <input class="inp-form buyer-name" type="text"><br>
+                    <label>Phone</label><br>
+                    <input class="inp-form phone-number" type="number">
+                </form>
+    
+                <select class="select select-form country-name" name="country" id="country">
+                    <option class="select1" value="USA">USA</option>
+                    <option  class="select2" value="canada">CANADA</option>
+                    <option  class="select3" value="AUSTRALIA">AUSTRALIA</option>
+                </select>
+            </div>
+
+            <!-- <form id="myForm"></form> -->
+
+            <div class="items-container"></div>
+
+            <div class="clearfix">
+                <div class="float-left">
+                    <button class="add-btn" type="button" onclick="parentFunction()">+</button>
+                </div>
+                <div class="float-left">
+                    <button class="submit-btn delete-btn" type="button" onclick="submit()">submit</button>
+                </div>
+            </div>
+
+            <pre class="result"></pre>
+            
+            <div class="html-form hidden-template hidden">
+                    <div class="form-border">
+                    <button class="btn-style delete-btn" onclick="reset()">Delete</button>
+                    <label>ProductName:</label>
+                    <input class="all-inputs name">
+                    <label>Description</label>
+                    <textarea class="all-inputs descrip"></textarea>
+                    <label>Quantity</label>
+                    <input class="all-inputs quant">
+                    <label>Rate</label>
+                    <input class="all-inputs rate">
+                    <label>Amount</label>
+                    <input  class="all-inputs amount">
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    </html>
